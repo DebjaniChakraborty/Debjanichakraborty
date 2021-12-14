@@ -1,0 +1,163 @@
+{% extends 'core\siteBase.html' %}
+{% block title %}-Student Catagories {% endblock title %}
+
+
+{% block content %}
+
+{% load static %}
+
+          <!-- /.col -->
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header p-2">
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a class="nav-link active" href="/catagories" data-toggle="tab">Interview Questions</a></li>
+                  <li class="nav-item"><a class="nav-link" href="gate.html" data-toggle="tab">Gate Questions</a></li>
+                  <li class="nav-item"><a class="nav-link" href="cse.html" data-toggle="tab">Stream Related Questions</a>
+                 <br>
+                 <ul class="nav nav-pills">
+                  <li class="nav-item"><a class="nav-link" href="cse.html" data-toggle="tab">CSE</a></li>
+                  <li class="nav-item"><a class="nav-link" href="ece.html" data-toggle="tab">ECE</a></li>
+                  <li class="nav-item"><a class="nav-link" href="ee.html" data-toggle="tab">EE</a></li>
+                  <li class="nav-item"><a class="nav-link" href="me.html" data-toggle="tab">ME</a></li>
+                  <li class="nav-item"><a class="nav-link" href="ce.html" data-toggle="tab">CE</a></li>
+                   <li class="nav-item"><a class="nav-link" href="pharma.html" data-toggle="tab">PHARMA</a></li>
+                  </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="/add" data-toggle="tab">Add Catgory</a></li>
+                </ul>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="active tab-pane" id="activity">
+                    <!-- Post -->
+                    <div class="post">
+                      <div class="user-block">
+                        <img class="img-circle img-bordered-sm" src="{%static 'img/sara.jpg'%}" alt="user image">
+                        <span class="username">
+                          <a href="#">Nina Mcintire</a>
+                          <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                        </span>
+                        <span class="description">You Shared publicly - 7:30 PM today</span>
+                      </div>
+                      <!-- /.user-block -->
+                      <p>
+                        Lorem ipsum represents a long-held tradition for designers,
+                        typographers and the like. Some people hate it and argue for
+                        its demise, but others ignore the hate as they create awesome
+                        tools to help create filler text for everyone from bacon lovers
+                        to Charlie Sheen fans.
+                      </p>
+
+                     <p>
+              
+              <span class="float-right">
+                <a href="#" class="link-black text-sm">
+                  <i class="far fa-comments mr-1"></i> Answer(5)
+                </a>
+              </span>
+            </p>
+                     <form class="form-horizontal">
+              <div class="input-group input-group-sm mb-0">
+                <input class="form-control form-control-sm" placeholder="Response">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-success">Post</button>
+                </div>
+              </div>
+            </form>
+                    </div>
+                    <!-- /.post -->
+
+                    <!-- Post -->
+                    <div class="post clearfix">
+                      <div class="user-block">
+                        <img class="img-circle img-bordered-sm" src="{%static 'img/download.png'%}" alt="User Image">
+                        <span class="username">
+                          <a href="#">Sarah Ross</a>
+                          <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                        </span>
+                        <span class="description">Sent you a message - 3 days ago</span>
+                      </div>
+                      <!-- /.user-block -->
+                      <p>
+                        Lorem ipsum represents a long-held tradition for designers,
+                        typographers and the like. Some people hate it and argue for
+                        its demise, but others ignore the hate as they create awesome
+                        tools to help create filler text for everyone from bacon lovers
+                        to Charlie Sheen fans.
+                      </p>
+
+                       <form class="form-horizontal">
+              <div class="input-group input-group-sm mb-0">
+                <input class="form-control form-control-sm" placeholder="Reply">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-success">Reply</button>
+                </div>
+              </div>
+            </form>
+                    </div>
+                    <!-- /.post -->
+
+                    <!-- Post -->
+                    <div class="post">
+                      <div class="user-block">
+                        <img class="img-circle img-bordered-sm" src="{%static 'img/sara.jpg'%}" alt="User Image">
+                        <span class="username">
+                          <a href="#">Nina Mcintire</a>
+                          <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                        </span>
+                        <span class="description">You Answered on Adam Jones Question</span>
+                      </div>
+                      <!-- /.user-block -->
+                      <p>
+                        Lorem ipsum represents a long-held tradition for designers,
+                        typographers and the like. Some people hate it and argue for
+                        its demise, but others ignore the hate as they create awesome
+                        tools to help create filler text for everyone from bacon lovers
+                        to Charlie Sheen fans.
+                      </p>
+                            <!-- /.col -->
+                          </div>
+                          <!-- /.row -->
+                        </div>
+                        <!-- /.col -->
+                      </div>
+                      <!-- /.row -->
+
+                      <p>
+                        
+                        <a href="#" class="link-black text-sm"><i class="far fa-thumbs-up mr-1"></i> Like</a>
+                        <span class="float-right">
+                          <a href="#" class="link-black text-sm">
+                            <i class="far fa-comments mr-1"></i> Replies (5)
+                          </a>
+                        </span>
+                      </p>
+
+                       <form class="form-horizontal">
+              <div class="input-group input-group-sm mb-0">
+                <input class="form-control form-control-sm" placeholder="Response">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-success">Post</button>
+                </div>
+              </div>
+            </form>
+                    </div>
+                    <!-- /.post -->
+                  </div>
+                  
+                  <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+              </div><!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+</body>
+</html>
+{% endblock content %}

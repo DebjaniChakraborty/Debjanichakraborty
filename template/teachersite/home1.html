@@ -1,0 +1,374 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>-Teacher Home Page</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+	<link href="{%static 'css/style.css'%}" rel="stylesheet">
+    <link rel="stylesheet" href="{%static 'css/all.min.css'%}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{%static 'css/adminlte.min.css'%}">
+    <style>
+    #div1{
+      width:60%;
+      height:900px;
+      float: left;
+    }
+    #div2{
+      width:30%;
+
+      float:right;
+    }
+    
+    </style>
+</head>
+<body>
+	<div class="wrapper">
+
+{% include 'core\components\nav1.html' %}
+</div>
+<br>
+{% block content %}
+</div>
+<br>
+<section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+          <div class="col-lg-2 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>CSE</h3>
+
+                <p>New Q & A</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-bag"></i>
+              </div>
+              <a href="cse.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-2 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>ECE</h3>
+
+                <p>New Q & A</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="ece.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-2 col-6">
+            <!-- small box -->
+            <div class="small-box bg-white">
+              <div class="inner">
+                <h3>EE</h3>
+
+                <p>New Q & A</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-person-add"></i>
+              </div>
+              <a href="ee.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-2 col-6">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+              <div class="inner">
+                <h3>ME</h3>
+
+                <p>New Q & A</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-pie-graph"></i>
+              </div>
+              <a href="me.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <!-- small box -->
+            <div class="small-box bg-warning">
+              <div class="inner">
+                <h3>CE</h3>
+
+                <p>New Q & A</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-person-add"></i>
+              </div>
+              <a href="ce.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+       
+        <!-- /.row -->
+         <div class="col-lg-2 col-6">
+            <!-- small box -->
+            <div class="small-box bg-secondary">
+              <div class="inner">
+                <h3>PHARMA</h3>
+
+                <p>New Q & A</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-person-add"></i>
+              </div>
+              <a href="pharma.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+        </div>
+      </div>
+</section>
+<br>
+<div class="row">
+  <div class="col-lg-4 col-6">
+  <div class="card">            
+    <div class="wrap">
+     
+      
+      <!-- end tags -->
+      <!-- BEGIN left -->
+      <div class="l sbar">
+        <!-- begin categories -->
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="add.html">[+] ADD CATAGORY</a></li>
+          <li><a href="/catagories">Interview Questions & Answers</a></li>
+          <li><a href="gate.html">Gate Questions & Answers</a></li>
+          <li><a href="cse.html">Computer Science Engineering (CSE)</a></li>
+          <li><a href="ece.html">Electronics and Communication Engineering</a></li>
+          <li><a href="ee.html">Electrical Engineering</a></li>
+          <li><a href="me.html">Mechanical Engineering</a></li>
+          <li><a href="ce.html">Civil Engineering</a></li>
+          <li><a href="pharma.html">Pharmacity</a></li>
+        </ul>
+        <!-- end categories -->
+        <!-- begin pages -->
+        
+        <!-- end pages -->
+      </div>
+      <!-- END left -->
+      <!-- BEGIN right -->
+      <div class="r sbar">
+        <!-- begin archives -->
+  
+        
+        <!-- end meta -->
+      </div>
+      <!-- END right -->
+    </div>
+    </div>
+    </div>
+        <!-- Main row -->
+        <br>
+        
+          <div class="col-lg-4 col-6">
+  <div class="card">
+    <div class="card-header p-2">
+      <ul class="nav nav-pills">
+        <li class="nav-item">Questions for you....</li>
+      
+      </ul>
+    </div><!-- /.card-header -->
+    <div class="card-body">
+      <div class="tab-content">
+        <div class="active tab-pane" id="activity">
+          <!-- Post -->
+          <div class="post">
+            <div class="user-block">
+              <img class="img-circle img-bordered-sm" src="{%static 'img/download.png'%}" alt="user image">
+              <span class="username">
+                <a href="#">Jonathan Burke Jr.</a>
+                <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+              </span>
+              <span class="description">Shared publicly - 7:30 PM today</span>
+            </div>
+            <!-- /.user-block -->
+            <p>
+              Lorem ipsum represents a long-held tradition for designers,
+              typographers and the like. Some people hate it and argue for
+              its demise, but others ignore the hate as they create awesome
+              tools to help create filler text for everyone from bacon lovers
+              to Charlie Sheen fans.
+            </p>
+
+          <p>
+             
+              <span class="float-right">
+                <a href="answer.html" class="link-black text-sm">
+                  <i class="far fa-comments mr-1"></i> Answer(5)
+                </a>
+              </span>
+            </p>
+
+             <form class="form-horizontal">
+              <div class="input-group input-group-sm mb-0">
+                <input class="form-control form-control-sm" placeholder="Response">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-success">Post</button>
+                </div>
+              </div>
+            </form>
+          <!-- /.post -->
+
+          <!-- Post -->
+          <div class="post clearfix">
+            <div class="user-block">
+              <img class="img-circle img-bordered-sm" src="{% static 'img/sara.jpg'%}" alt="User Image">
+              <span class="username">
+                <a href="#">Sarah Ross</a>
+                <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+              </span>
+              <span class="description">Sent you a message - 3 days ago</span>
+            </div>
+            <!-- /.user-block -->
+            <p>
+              Lorem ipsum represents a long-held tradition for designers,
+              typographers and the like. Some people hate it and argue for
+              its demise, but others ignore the hate as they create awesome
+              tools to help create filler text for everyone from bacon lovers
+              to Charlie Sheen fans.
+            </p>
+<p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6M2AOPGqR-M" allowfullscreen></iframe>
+  </div>
+              
+              <span class="float-right">
+                <a href="answer.html" class="link-black text-sm">
+                  <i class="far fa-comments mr-1"></i> Answer(3)
+                </a>
+              </span>
+            </p>
+            <form class="form-horizontal">
+              <div class="input-group input-group-sm mb-0">
+                <input class="form-control form-control-sm" placeholder="Response">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-success">post</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- /.post -->
+
+          <!-- Post -->
+          <div class="post">
+            <div class="user-block">
+              <img class="img-circle img-bordered-sm" src="{%static 'img/download.png'%}" alt="User Image">
+              <span class="username">
+                <a href="#">Adam Jones</a>
+                <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+              </span>
+              <span class="description">Posted 2 photos - 5 days ago</span>
+            </div>
+              
+                  <div class="col-sm-6">
+                    <img class="img-fluid mb-3" src="{%static 'img/download.png'%}" alt="Photo">
+                    <img class="img-fluid" src="{%static 'img/shortcut-4.png'%}" alt="Photo">
+                  </div>
+                  <!-- /.col -->
+                </div>
+                 <p>
+              
+              <span class="float-right">
+                <a href="answer.html" class="link-black text-sm">
+                  <i class="far fa-comments mr-1"></i> Answer(7)
+                </a>
+              </span>
+            </p>
+            <form class="form-horizontal">
+              <div class="input-group input-group-sm mb-0">
+                <input class="form-control form-control-sm" placeholder="Response">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-success">Post</button>
+                </div>
+              </div>
+            </form>
+            </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.col -->
+            </div>
+            </div>
+            </div>
+            </div>
+            
+          
+            
+            <br>
+            
+              <div class="col-lg-4 col-6">
+                        <div class="card">            
+                          <div class="wrap">
+                            <!-- begin popular posts -->
+                            <h2>Popular Posts</h2>
+                            <ul>
+                              <li><a href="#">How to make a website with Html & CSS?</a></li>
+                              <li><a href="#">What is python?</a></li>
+                              <li><a href="#">how can i install mongoDB Server free?</a></li>
+                              <li><a href="#">SHow can i host my website?</a></li>
+                              <li><a href="#">what template should i use to use in Django?</a></li>
+                            </ul>
+                            <!-- end popular posts -->
+                            <!-- begin flickr photos -->
+                            
+                            <!-- end featured video -->
+                            <!-- begin tags -->
+                            <h2>Tags</h2>
+                            <div class="tags"> </div>
+                            <!-- end tags -->
+                            <!-- BEGIN left -->
+                            <div class="l sbar">
+                              <!-- begin categories -->
+                              <h2>Categories</h2>
+                              <ul>
+                                <li><a href="#">Digital Communication and Stochastic</a></li>
+                                <li><a href="#">Nano Electronics</a></li>
+                                <li><a href="#">Digital Signal Processing</a></li>
+                                <li><a href="#">Computer Architecture</a></li>
+                                <li><a href="#">Electronics Waves</a></li>
+                                <li><a href="#">Effective Technical Communication</a></li>
+                                <li><a href="#">Soft Skill and Interpersonal Communication</a></li>
+                              </ul>
+                              <!-- end categories -->
+                              <!-- begin pages -->
+                              <h2>Pages</h2>
+                              <ul>
+                                <li><a href="/home">Home</a></li>
+                                <li><a href="#">Links</a></li>
+                                <li><a href="contactus.html">Contact</a></li>
+                                
+                              </ul>
+                              <!-- end pages -->
+                            </div>
+                            <!-- END left -->
+                            <!-- BEGIN right -->
+                            <div class="r sbar">
+                              <h2>Meta</h2>
+                              <ul>
+                                <li><a href="/index">Logout</a></li>
+                              </ul>
+                              <!-- end meta -->
+                            </div>
+                            <!-- END right -->
+                          </div>
+                          </div>
+                          </div>
+</div>
+    
+</body>
+</html>
+{% endblock content %}

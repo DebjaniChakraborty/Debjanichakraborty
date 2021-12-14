@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: bold !important;
+}
+img{
+    border-radius: 15px !important;
+}
+.active{
+    color:#28B5B5 !important;
+}
+.navbar-brand{
+    font-family: 'Zen Tokyo Zoo', cursive !important;
+    font-size: 30px !important;
+}
+.navbar-brand:hover{
+    text-shadow: 2px 2px 3px grey;
+    color:#7C83FD !important;
+}
+div.card{
+    margin:20px auto;
+    width:80%;
+    padding: 15px;
+    border-radius:10px;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 2px 2px 25px rgb(167, 167, 167);
+    text-align: center;
+}
+div.pic{
+    margin: 15px auto;
+    padding: 0 !important;
+    border-radius:15px;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 2px 2px 45px white;
+    text-align: center;
+}
+div.corsl{
+    margin:35px auto;
+    width:85%;
+    padding: 0 !important;
+    border-radius:15px !important;
+    box-shadow: 2px 2px 45px rgb(196, 196, 196);
+    text-align: center;
+}
+div.row{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+a.lin{
+    text-decoration: none !important;
+    font-size: 20px;
+    font-style: italic;
+    color:#7C83FD !important;
+}
+div.corsl:hover{
+    box-shadow: 5px 5px 35px rgb(117, 112, 112);
+    text-align: center; 
+}
+.nav-link:hover{
+    text-shadow: 2px 2px 3px grey;
+    color:#7C83FD !important;
+}
+.spce{
+    padding: 25px !important;
+}
