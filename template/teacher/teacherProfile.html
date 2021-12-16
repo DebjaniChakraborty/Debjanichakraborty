@@ -1,4 +1,4 @@
-{% extends 'core\siteBase1.html' %}
+{% extends 'core/siteBase1.html' %}
 {% block title %}-Student Profile {% endblock title %}
 
 
@@ -15,7 +15,7 @@
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                                            src="{{TeacherData.profilepic.url}}" alt="User profile picture">
+                                            src="{%static 'img/te.png'%}" alt="User profile picture">
                 </div>
                 <h3 class="profile-username text-center">{{TeacherData.first_name}}
                                         {{TeacherData.last_name}}</h3>
@@ -145,17 +145,7 @@
                 {{UserProfileForm.year}}
             </div>
         </div>
-        <div class="form-group row">
-            <label for="inputSkills" class="col-sm-2 col-form-label">Profile Pic
-                Preview</label>
-            <div class="col-sm-4">
-                <label for="customFile">
-                    <img class="profile-user-img img-fluid img-circle" id='previewpic'
-                        src="{{TeacherData.profilepic.url}}" alt="User profile picture">
-                </label>
-            </div>
-            {{UserProfileForm.profilepic}}
-        </div>
+        
         <div class="form-group row">
             <div class="offset-sm-2 col-sm-10">
                 <button type="submit" class="btn btn-danger">Update your Academic

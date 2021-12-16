@@ -1,7 +1,9 @@
-{% extends 'core\siteBase1.html' %}
+{% extends 'core/siteBase1.html' %}
 {% load static %}
 {% block title %}-TeacherData Profile {% endblock title %}
 {% block content %}
+<div class="col-md-12">
+    <div class="card">
 <div class="card-body">
     <form class="form-horizontal" action="" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
@@ -27,7 +29,10 @@
                 <button type="submit" class="btn btn-danger">Submit</button>
             </div>
         </div>
+    </div>
+</div>
     </form>
+
     <div class="card">
         <div class="card-body">
     <table class="table table-striped">
@@ -63,5 +68,7 @@
 
         </tbody>
     </table>
+</div>
+</div>
 </div>
 {% endblock content %}
